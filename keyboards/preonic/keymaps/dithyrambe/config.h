@@ -3,6 +3,8 @@
 
 #include "config_common.h"
 
+#define PERMISSIVE_HOLD 100
+
 #ifdef AUDIO_ENABLE
     #define STARTUP_SONG SONG(PREONIC_SOUND)
     // #define STARTUP_SONG SONG(NO_SOUND)
